@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # Rich Text Editor for ASP.NET Web Forms - How to open a document using drag and drop
 
-This example allows users to drag files to the [Rich Text Editor](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit) to open them in the control. In this example, **Open** and **Save As** operations are unavailable since the [work directory](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.WorkDirectory?p=netframework) is not specified.
+This example allows users to drag files to the [Rich Text Editor](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit) to open them in the control. In the example, the [work directory](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.WorkDirectory?p=netframework) is not specified and **Open** and **Save As** operations are unavailable.
 
 ![Open Documents Using Drag and Drop](open-documents-using-drag-and-drop.gif)
 

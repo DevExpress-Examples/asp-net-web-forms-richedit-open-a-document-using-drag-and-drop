@@ -10,7 +10,7 @@ This example allows users to drag files to the [Rich Text Editor](https://docs.d
 
 The [Upload Control](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxUploadControl) allows users to upload files from a client computer and save them on the server. Set the control's [EnableDragAndDrop](https://docs.devexpress.com/AspNet/DevExpress.Web.UploadAdvancedModeSettings.EnableDragAndDrop) property to `true` to enable drag and drop support. Assign the ASPxRichEdit control's identifier to the Upload control's [ExternalDropZoneID](https://docs.devexpress.com/AspNet/DevExpress.Web.UploadAdvancedModeSettings.ExternalDropZoneID) property to upload files that users drag in the Rich Text Editor.
 
-Once the file upload operation completes, use the [RichEditDocumentServer](https://docs.devexpress.com/OfficeFileAPI/17488/word-processing-document-api) to save the file's content to a stream. Pass the stream to the [Open](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Open(System.String-DevExpress.XtraRichEdit.DocumentFormat-System.Func-System.IO.Stream-)) method to open this document in the Rich Text Editor.
+Once the file upload operation is completed, use the [RichEditDocumentServer](https://docs.devexpress.com/OfficeFileAPI/17488/word-processing-document-api) to save the file's content to a stream. Pass the stream to the [Open](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRichEdit.ASPxRichEdit.Open(System.String-DevExpress.XtraRichEdit.DocumentFormat-System.Func-System.IO.Stream-)) method to open this document in the Rich Text Editor.
 
 ## Files to Review
 
